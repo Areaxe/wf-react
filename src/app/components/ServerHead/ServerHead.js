@@ -104,13 +104,13 @@ class ServerHead extends React.Component {
     if (info.showButton) {
       switch (info.signinState) {
         case 'unsignin':
-          btn.push(<td key="3" className="ser_head_td ser_head_td_btn18 ser_head_btn_disabled"><Button alt={info.signinState} value={info.id} onClick={this._handleClick.bind(this, )} type="primary" className={info.classsName}>{info.comment}</Button></td>);
+          btn.push(<td key="3" className="ser_head_td ser_head_td_btn18 ser_head_btn_disabled"><Button alt={info.signinState} value={info.id} onClick={this._handleClick.bind(this)} type="primary" className={info.classsName}>{info.comment}</Button></td>);
           break
         case 'signined':
-          btn.push(<td key="3" className="ser_head_td ser_head_td_btn18"><Button alt={info.signinState} value={info.id} onClick={this._handleClick.bind(this, )} type="primary" className={info.classsName}>{info.comment}</Button></td>);
+          btn.push(<td key="3" className="ser_head_td ser_head_td_btn18"><Button alt={info.signinState} value={info.id} onClick={this._handleClick.bind(this)} type="primary" className={info.classsName}>{info.comment}</Button></td>);
           break
         default:
-          btn.push(<td key="3" className="ser_head_td ser_head_td_btn18"><Button alt={info.signinState} value={info.id} onClick={this._handleClick.bind(this, )} type="primary" className={info.classsName}>{info.comment}</Button></td>);
+          btn.push(<td key="3" className="ser_head_td ser_head_td_btn18"><Button alt={info.signinState} value={info.id} onClick={this._handleClick.bind(this)} type="primary" className={info.classsName}>{info.comment}</Button></td>);
           break
       }
       trList.push(<tr key="02">
@@ -146,7 +146,9 @@ class ServerHead extends React.Component {
     }
     if (info.showDateAndName) {
       trList.push(<tr key="08">
-        <td key="12" colSpan="3" className="ser_head_pad3rem ser_head_numTitle">{sd.getMonth() + 1}月{sd.getDate()}日<span className="ser_head_span_name">{item.data.region.name}</span></td>
+        <td key="12" colSpan="3" className="ser_head_pad3rem ser_head_numTitle">
+          {sd.getFullYear()}年{sd.getMonth() + 1}月{sd.getDate()}日 ~ {ed.getFullYear()}年{ed.getMonth() + 1}月{ed.getDate()}日
+        </td>
       </tr>);
     }
     if (info.showAllTime) {

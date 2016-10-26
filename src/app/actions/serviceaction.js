@@ -232,7 +232,7 @@ function serviceListFetch() {
   let token = localStorage.getItem('login_token')
   let regionId = localStorage.getItem('region_id')
   let requireText = ''
-  requireText = `${config.API_GET_DATA}/${regionId}/services/new?populate="organizer cover tags"&sort=startTime`
+  requireText = `${config.API_GET_DATA}/${regionId}/services/new?populate="organizer cover tags"&sort=startTime&eq="isPublish=true"`
   return fetchData({
     url: requireText,
     token: token,
@@ -249,9 +249,9 @@ function sortServiceListFetch(serviceType, orderBy) {
   let limitText = ''
   let requireText = ''
   if (orderBy === 'full')
-    requireText = `${config.API_GET_DATA}/${regionId}/services/new?populate="organizer cover tags"&ne="status=full"`
+    requireText = `${config.API_GET_DATA}/${regionId}/services/new?populate="organizer cover tags"&ne="status=full"&eq="isPublish=true"`
   else
-    requireText = `${config.API_GET_DATA}/${regionId}/services/new?populate="organizer cover tags"${typeText}${sortText}`
+    requireText = `${config.API_GET_DATA}/${regionId}/services/new?eq="isPublish=true"&populate="organizer cover tags"${typeText}${sortText}`
   return fetchData({
     url: requireText,
     token: token,

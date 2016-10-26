@@ -126,7 +126,7 @@ function fetchServiceByTime(organizerId, query, limit) {
   let regionId = localStorage.getItem('region_id')
   let limitText = limit ? `&limit=${limit}` : ''
   return fetchData({
-    url: `${config.API_GET_DATA}/${regionId}/services/${query}?eq="organizer=${organizerId}"&populate="cover tags"${limitText}`,
+    url: `${config.API_GET_DATA}/${regionId}/services/${query}?eq="organizer=${organizerId} isPublish=true"&populate="cover tags"${limitText}`,
     token: token,
   }).then((response) => {
     return response

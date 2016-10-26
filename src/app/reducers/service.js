@@ -65,6 +65,7 @@ export default createReducer(initialState, {
   [serviceAction.SERVICE_CLOSE]: (ServiceationStatus, action) => {
     let infos = []
     let serviceList = []
+    console.info("++++++code:"+action.json.code)
     if (action.json.code === 200) {
       if(action.json.serviceList) {
         for (let obj of action.json.serviceList) {
@@ -119,9 +120,10 @@ export default createReducer(initialState, {
     let bool = false
     if(action.json.code === 200) {
       bool = true
+      message.success('点评成功！')
       for(let it of action.json.services) {
         if(it._id === action.json.serviceId) {
-          let obj = action.json.data;
+          let obj = action.json.data
           let userStatus = {evaluateState:'addable',registState:'registed'}
           obj.userStatus = userStatus
           obj.cover = it.cover
@@ -130,6 +132,9 @@ export default createReducer(initialState, {
           info.push(it)
         }
       }
+    }else {
+      message.error('网络繁忙，请稍后再试！')
+      info = action.json.services
     }
     if(action.json.type && action.json.type === 'detail') {
       return ServiceationStatus.merge({
@@ -148,6 +153,7 @@ export default createReducer(initialState, {
     let bool = false
     if(action.json.code === 200) {
       bool = true
+      message.success('追加点评成功')
       for(let it of action.json.services) {
         if(it._id === action.json.serviceId) {
           let obj = action.json.data;
@@ -159,6 +165,9 @@ export default createReducer(initialState, {
           info.push(it)
         }
       }
+    }else {
+      message.error('网络繁忙，请稍微再试！')
+      info = action.json.services
     }
     if(action.json.type === 'commentAbout') {
       return ServiceationStatus.merge({
@@ -179,15 +188,22 @@ export default createReducer(initialState, {
   },
   [serviceAction.SERVICE_COMMENT_ABOUT]: (ServiceationStatus, action) => {
     let infos = []
+    let bool = false
     if (action.json.code === 200) {
+      bool = true
+      message.success('点评成功')
       for(let obj of action.json.services) {
         if(obj._id !== action.json.serviceId) {
           infos.push(obj)
         }
       }
+    }else {
+      message.error('网络繁忙，请稍后再试！')
+      infos = action.json.services
     }
     return ServiceationStatus.merge({
       evaluatable: infos,
+      close: true,
     })
   },
   [serviceAction.SERVICE_REGIST]: (ServiceationStatus, action) => {

@@ -134,7 +134,7 @@ export default class ServiceAbout extends Component {
     }
     if (list) {
       return (
-        <DocumentTitle title='点评相关'>
+        <DocumentTitle title='服务相关'>
           <div>
             <div className='wHome-title'>
               <ul>

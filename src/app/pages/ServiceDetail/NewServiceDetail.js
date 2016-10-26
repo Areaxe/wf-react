@@ -177,7 +177,7 @@ class NewServiceDetail extends React.Component {
         btn2Click: this._reservationSure.bind(this),
         btnText1: '取消',
         btnText2: '确定',
-        mainText: this.state.opt === 'regist' ? '确定预约？' : '取消后将不能再预约此服务？',
+        mainText: this.state.opt === 'regist' ? '确定预约？' : '取消后将不能再预约此服务',
       }
       let shadeInfo = ''
       if (this.state.showReservation) {
