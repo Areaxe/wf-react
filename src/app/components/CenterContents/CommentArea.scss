@@ -1,0 +1,60 @@
+@import '../../style/theme';
+.comment-area{
+	background:#fff;
+	border-radius:6px;
+	width:calc(100% - 4rem);
+	margin:0 auto;
+	position:relative;
+	.head-icon{
+		top:-3.5rem;
+		margin-top:-3.5rem;
+		left:calc(50% - 2rem);
+		width:7rem;
+		height:7rem;
+		border-radius:50%;
+		background:#fff;
+		display:inline-block;
+		img{
+			width:100%;
+			height:100%;
+			border:none;
+		}
+	}
+	.rate-text{
+		width:100%;
+		font-size:16px;
+		margin-top:1.6rem;
+		color:#3e3e3e;
+		line-height:3.6rem;
+		height:3.6rem;
+	}
+	.Rate{
+		line-height:2.7rem;
+		margin-top:2rem;
+	}
+	textarea{
+		width:calc(100% - 3.2rem);
+		height:14rem;
+		padding:.8rem;
+		margin-top:3rem;
+		border:solid 1px #e0e0e0;
+		font-size:16px;
+		color:#a3a9b3;
+	}
+	.button-container{
+		width:calc(100% - 1.6rem);
+		margin:0 auto;
+		.light-btn,.primary-btn{
+			display:inline-block;
+			width:calc(50% - 1.6rem);
+			margin:1.2rem .8rem;
+		}
+	}
+	.light-btn{
+		button{
+			background:#fff;
+			border:$primary-color solid 1px;
+			color:$primary-color;
+		}
+	}
+}

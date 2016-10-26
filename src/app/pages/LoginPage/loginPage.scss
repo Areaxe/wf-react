@@ -1,0 +1,37 @@
+*{
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  user-select: text !important;
+}
+.userImg-container{
+  padding:2rem 0 0 0;
+  text-align: center;
+  width:100%;
+  .shade{
+  width:auto;
+  margin:0 auto;
+  height:6rem;
+  width:6rem;
+  border-radius:50%;
+  overflow: hidden;
+  border:solid 1px #eee;
+}
+.userImg{
+  width:100%;
+  border:none;
+}
+.loginText{
+  text-align: center;
+  margin:2rem 0;
+  font-size:12px;
+  color:#a3a9b3;
+}
+}
+.loginPage-btn{
+  text-align:center;
+  width:calc(100% - 4rem);
+  margin:0 auto;
+  .login-btn{
+    margin-bottom:2.8rem;
+  }
+}

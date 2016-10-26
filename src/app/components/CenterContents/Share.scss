@@ -1,0 +1,59 @@
+.share-prom{
+	background:#fff;
+	width:calc(100% - 4rem);
+	margin:0 auto;
+	border-radius:4px;
+	padding-bottom:1.2rem;
+	.share-title{
+		width:100%;
+		color:#222;
+		text-align:left;
+		text-indent:1.8rem;
+		line-height:8rem;
+		height:8rem;
+		font-size:17px;
+	}
+	.plate-list{
+		margin:0 auto;
+		width:100%;
+		text-align:left;
+
+		li{
+			text-align:center;
+			display:inline-block;
+			width:33%;
+			height:9rem;
+			line-height:9rem;
+			vertical-align:middle;
+			.img-container{
+				height:5rem;
+				img{
+				width:4.4rem;
+				height:4.4rem;
+				}
+			}
+			
+			.plate-name{
+				line-height:18px;
+				font-size:14px;
+				height:18px;
+				margin-top:1rem;
+				color:#222;
+			}
+		}
+
+ 	}
+}
+@media screen and (max-width:375px){
+	
+}
+ @media screen and (min-width:528px){
+ 	.share-prom{
+ 		.plate-list{
+ 			li{
+ 				width:9rem;
+ 				height:9rem;
+ 			}
+ 		}
+ 	}
+ }	

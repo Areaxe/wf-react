@@ -1,0 +1,33 @@
+@import '../../style/theme';
+@import '../../style/common';
+.showAgreement{
+  color:#a3a9b3;
+  width:calc(100% - 4rem);
+  margin-left:2rem;
+  font-size:12px;
+  line-height:5.8rem;
+  .checkbox-img{
+    display:inline-block;
+    vertical-align:middle;
+    width:1.9rem;
+    height:1.9rem;
+    margin-right:0.4rem;
+  }
+  .agreen-img-on{
+    background: url('../../images/agreen_on.png') center no-repeat;
+    background-size: cover;
+  }
+  .agreen-img-off{
+    background: url('../../images/agreen_off.png') center no-repeat;
+    background-size: cover;
+  }
+  .reminder{
+    font-size:12px;
+    color:$reminder-text;
+    margin-right:0.8rem;
+  }
+  .agreement-link{
+    color:#5ec1fa;
+    text-decoration:underline;
+  }
+}

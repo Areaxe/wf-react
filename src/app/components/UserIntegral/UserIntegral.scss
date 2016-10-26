@@ -1,0 +1,75 @@
+@import '../../style/theme';
+.user-integral{
+	color:#222222;
+	width:100%;
+	.total-integral,.single-integral{
+		background-color:#fff;
+		height:6rem;
+		line-height:6rem;
+		font-size:16px;
+		margin:0 auto;
+		vertical-align:middle;
+		border:solid 1px #eee;
+	}
+	.total-integral{
+		position:relative;
+		font-size:18px;
+		text-align:center;
+		line-height:6rem;
+		margin:1rem 0;
+		.total-num{
+			color:#5ec1fa;
+			display:inline-block;
+			margin-left:1.2rem;
+			font-size:24px;
+			vertical-align:middle;
+			 margin-top:-3px;
+		}
+		.intergral-icon{
+			width:4.4rem;
+			position:absolute;
+			right:0;
+			vertical-align: top;
+    		margin-top: .8rem;
+		}
+	}
+	.single-integral{
+		margin-top:-1px;
+		padding:0 1.6rem;
+	}
+
+	.integral-info{
+		line-height:normal;
+		margin-top:1rem;
+		display:inline-block;
+		height:3.8rem;
+		max-width:calc(100% - 7.6rem);
+		.integral-name,.integral-time{
+			width:100%;
+			display:block;
+		}
+		.integral-name{
+			font-size:16px;
+			line-height:2rem;
+			@include ellipsis(1);
+		}
+		.integral-time{
+			color:$reminder-text;
+			line-height:1.8rem;
+			font-size:14px;
+		}
+	}
+	
+	.integral-num{
+		float:right;
+		height:100%;
+		width:auto;
+		vertical-align:middle;
+		line-height:6rem;
+		font-size:20px;
+	}
+	.no-point{
+		height:calc(100vh - 20rem);
+		text-align:center;
+	}
+}

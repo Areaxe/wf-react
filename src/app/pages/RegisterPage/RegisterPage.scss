@@ -1,0 +1,48 @@
+.register-page{
+    width:100vw;
+    height:100vh;
+    position:relative;
+    text-align:center;
+    .center-container{
+        background:#fff;
+        width:calc(100vw - 3.6rem);
+        height:34.5rem;
+        padding:1.6rem;
+        margin:auto;
+        position:absolute;
+        left:0;
+        right:0;
+        top:0;
+        bottom:0;
+    }
+    .heade{
+        width:100%;
+        font-size:13px;
+        text-align:left;
+        vertical-align:middle;
+        color:#aaa;
+        img{
+            width:1.6rem;
+            vertical-align:middle;
+            margin-right:.6rem;
+        }
+    }
+    .main-content{
+        margin-top:4.9rem;
+        .tips{
+            font-size:24px;
+            color:#3e3e3e;
+            text-align:center;
+            width:100%;
+        }
+        .main-img{
+            margin:2.8rem auto 4.8rem auto;
+            width:8.6rem;
+            height:8.6rem;
+        }
+    }
+    .button{
+        margin:0 auto;
+        font-size:16px;
+    }
+}

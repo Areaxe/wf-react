@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@import "../../style/theme";
+
+.menu_bottom_ul{
+  clear: both;
+  height: 4.9rem;
+  table-layout: fixed;
+  background-color: #fbfbfd;
+  border-top: solid 1px #eeeeee;
+  position: fixed;
+  bottom: 0;
+  .menu-item{
+  display:inline-block;
+  width:25%;
+  height: 4.9rem;
+  text-align: center;
+  font-size: 10px;
+  a{
+    height:4.9rem;
+    width:100%;
+    display:block;
+    color: #b5b5b5;
+    p{
+      line-height:2.1rem;
+      display:inline-block;
+      height:2.1rem;
+      margin-top:2.8rem;
+    }
+  }
+}
+ .active a{
+     color:$theme-color;
+}
+.home-icon{
+    background:url('../../images/h.png') no-repeat top .6rem center;
+    background-size:auto 2.2rem;
+  }
+  .whome-icon{
+    background:url('../../images/w.png') no-repeat top .6rem center;
+    background-size:auto 2.2rem;
+  }
+  .info-icon{
+    background:url('../../images/n.png') no-repeat top .6rem center;
+    background-size:auto 2.2rem;
+  }
+  .pcenter-icon{
+    background:url('../../images/m.png') no-repeat top .6rem center;
+    background-size:auto 2.2rem;
+  }
+
+  .home-icon-at{
+    background:url('../../images/ha.png') no-repeat top .6rem center;
+    background-size:auto 2.2rem;
+  }
+  .whome-icon-at{
+    background:url('../../images/wa.png') no-repeat top .6rem center;
+    background-size:auto 2.2rem;
+  }
+  .info-icon-at{
+    background:url('../../images/na.png') no-repeat top .6rem center;
+    background-size:auto 2.2rem;
+  }
+  .pcenter-icon-at{
+    background:url('../../images/ma.png') no-repeat top .6rem center;
+    background-size:auto 2.2rem;
+  }
+}
+
+.menu_bottom_iconTd{
+  height: 2.8rem;
+  text-align: center;
+  vertical-align: bottom;
+}
+.menu_bottom_icon{
+  height: 2.2rem;
+}
+.menu_bottom_on{
+  color:$theme-color;
+}

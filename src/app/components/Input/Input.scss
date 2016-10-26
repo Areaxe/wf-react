@@ -1,0 +1,57 @@
+@import '../../style/theme';
+.input{
+  background:#fff;
+  width:100%;
+  display:block;
+  height:4.9rem;
+  line-height:4.9rem;
+  font-size:16px;
+  vertical-align:middle;
+  @include input-border;
+
+  .search-container{
+    background:#f4f5f7;
+    position:relative;
+    height:3.4rem;
+    line-height:3.4rem;
+    vertical-align:middle;
+    margin:.6rem .8rem 0 .8rem;
+    border-radius:2px;
+    display:inline-block;
+    width:calc(100% - 1.6rem);
+
+    .search-input{
+      outline:none;
+      background:none;
+      border:none;
+      height:3.4rem;
+      width:calc(100% - 3.6rem);
+      margin:0 auto;
+      vertical-align:middle;
+      background-image:url('../../images/address_28_gray.png');
+      background-repeat:no-repeat;
+      background-position:center left .8rem;
+      background-size:1.4rem;
+      text-indent:3.2rem;
+    }
+    .delBtn{
+      position:absolute;
+      display:inline-block;
+      width:2rem;
+      height:2rem;
+      background:url('../../images/delete_40.png') no-repeat center;
+      background-size:100%;
+      right:.8rem;
+      top:.7rem;
+      vertical-align:middle;
+    }
+  }
+  
+  input{
+    width:100%;
+    border:none;
+    text-indent:1rem;
+    color:#222;
+    vertical-align:middle;
+    }
+}

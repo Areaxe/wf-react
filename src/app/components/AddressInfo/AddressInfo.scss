@@ -1,0 +1,55 @@
+@charset "UTF-8";
+.address_info_detailLi{
+  width: 100%;
+  height: 4.9rem;
+  line-height: 1.6rem;
+}
+.address_info_detail{
+  font-size: 14px;
+  color: #a3a9b3;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.address_info_detailAll{
+  font-size: 14px;
+  color: #a3a9b3;
+}
+.address_info_line{
+  width: 5.6rem;
+  height: 4rem;
+  border-left: solid 1px #eee;
+  vertical-align: middle;
+  text-align: center;
+}
+.address_info_phone{
+  width: 3.2rem;
+  height: 3.2rem;
+  margin-top: 0.4rem;
+}
+.address_info_table{
+  width: 100%;
+  table-layout: fixed !important;
+  height: 4.9rem;
+  border-bottom: solid 1px #eee;
+  background-color: #ffffff;
+}
+.address_info_table td{
+  height: 4.9rem;
+}
+.address_info_iconTd{
+  width: 3.4rem;
+  text-align: center;
+  vertical-align: middle;
+}
+.address_info_icon2{
+  width: 1.4rem;
+  height: 1.4rem;
+  vertical-align:middle;
+  margin-top:-3px;
+}
+.address_info_phoneTd{
+  width: 5.6rem;
+}

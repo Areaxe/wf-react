@@ -1,0 +1,21 @@
+@import '../../style/theme';
+.loading-component{
+    position:absolute;
+    user-select:none;
+    -webkit-user-select:none;
+    width:100vw;
+    height:100vh;
+    text-align:center;
+    background:#f4f5f7;
+    z-index:10;
+    top:0;
+    left:0;
+    .loading{
+        width:160px;
+        margin:55% auto 0 auto;
+    }
+    .loadding-text{
+        color:#b5b5b5;
+        margin-top:1rem;
+    }
+}

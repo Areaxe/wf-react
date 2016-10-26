@@ -1,0 +1,68 @@
+$reminder-text:#a3a9b3;
+$background-color:#f4f5f7;
+$theme-color:#ff8aa9;
+$border-color:#e0e0e0 solid 1px;
+$primary-color:#5ec1fa;
+
+@mixin input-border{
+	border:none;
+	border-top:solid 1px #eee;
+	border-bottom:solid 1px #eee;
+}
+
+@mixin ellipsis($num){
+	overflow: hidden;
+	display: -webkit-box;
+	text-overflow: ellipsis;
+	line-clamp:$num;
+	-webkit-line-clamp:$num;
+	-webkit-box-orient:vertical;
+}
+
+@mixin item-link{
+	width:100%;
+	display:block;
+	height:6.8rem;
+	font-size:17px;
+	line-height:22px;
+	border-bottom:solid 1px #eee;
+	background-color:#fff;
+	background-image:url('../../images/right-arrow.png');
+	background-repeat:no-repeat;
+	background-position:center right 1.6rem;
+	background-size:1.4rem;
+	padding-right:3rem;
+	line-height:6.8rem;
+
+	.info-left{
+		vertical-align:middle;
+		overflow:hidden;
+		text-align:center;
+		width:6.8rem;
+		height:6.8rem;
+		line-height:6.8rem;
+		display:inline-block;
+		font-size:12px;
+		color:#b6bcb7;
+		img{
+			width:3.6rem;
+			height:3.6rem;
+			line-height:6.8rem;
+			vertical-align:middle;
+			display:inline;
+		}
+	}
+	.info-center{
+		color:#222;
+		vertical-align:middle;
+		font-size:17px;
+		width:auto;
+		display:inline-block;
+		max-width:calc(100% - 9.4rem);
+	}
+	.info-right{
+		display:inline-block;
+		width:auto;
+		vertical-align:middle;
+	}
+}

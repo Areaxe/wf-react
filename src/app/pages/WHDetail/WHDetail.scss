@@ -1,0 +1,32 @@
+@charset "UTF-8";
+.whome-detailPage{
+  .whd_head_ul{
+  width: 100%;
+  padding: 1.5rem 0 0.6rem 0;
+  background-color: #ffffff;
+  border-bottom: solid 1px #eee;
+}
+.whd_head_ul>li{
+  width: calc(100% - 2.4rem);
+  margin-left: 1.2rem;
+}
+.whd_head_name{
+  font-size: 18px;
+  line-height: 2.4rem;
+  color: #222222;
+  font-weight: 500;
+}
+.whd_head_rate{
+  height: 2.4rem;
+  line-height: 2.4rem;
+  .ant-rate{
+    font-size:12px;
+    .ant-rate-star{
+      margin-right:4px;
+    }
+  }
+}
+.thumbnail{
+  display:inline-block!important;
+}
+}

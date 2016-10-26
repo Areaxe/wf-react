@@ -1,0 +1,39 @@
+@import '../../style/theme';
+.wHome-title{
+  width:100%;
+  ul{
+    width:100%;
+    border-bottom:solid 1px #e0e0e0;
+    li{
+				width:50%;
+				display:inline-block;
+				text-align:center;
+				font-size:18px;
+				text-align:center;
+				color:#b6bcc7;
+				height:4.5rem;
+				line-height:4.5rem;
+				background:#fff;
+				border-bottom:none;
+				span{
+					display:inline-block;
+					margin:0 auto;
+				}
+    }
+    
+  }
+  .on{
+				>span{
+					padding:0 12px;
+					height:100%;
+					border-bottom:solid 2px $theme-color;
+					color:$theme-color;
+					box-sizing:border-box;
+					-moz-box-sizing:border-box; /* Firefox */
+					-webkit-box-sizing:border-box; /* Safari */
+				}
+			}
+      ul .on {
+        border-bottom:none !important;
+      }
+}

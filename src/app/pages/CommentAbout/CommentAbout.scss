@@ -1,0 +1,25 @@
+@import '../../style/theme';
+.wHome-title{
+  width:100%;
+  ul{
+    width:100%;
+    border-bottom:solid 1px #eee;
+    li{
+      width:50%;
+      display:inline-block;
+      font-size:18px;
+      text-align:center;
+      border-box:box-sizing;
+      color:#b6bcc7;
+      height:4.5rem;
+      line-height:4.5rem;
+      background:#fff;
+    }
+    .on >span{
+      padding: 0 12px;
+      height: 100%;
+      border-bottom: solid 2px $theme-color;
+      color: $theme-color;
+    }
+  }
+}

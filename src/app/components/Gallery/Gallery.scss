@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.gallery {
+  height: calc(25vw + 8px);
+  white-space: nowrap;
+  overflow: scroll;
+  padding: 0 1.2rem;
+}
+.gallery_container{
+  height:25vw;
+  overflow: hidden;
+}
+.thumbnail {
+  background-size: cover;
+  border:none!important;
+  border-radius: 3px;
+  width: 25vw;
+  height:25vw;
+  overflow: hidden;
+  display: inline-block;
+  margin-right:.4rem;
+}
+.thumbnailImage {
+  width: 100%;
+  height: 25vw;
+  display: block;
+  max-width: 100%;
+}
+.gallery_div{
+  padding: 1rem 0 1rem 0;
+  border-bottom: solid 1px #eee;
+  background-color: #ffffff;
+  .gallery{
+    overflow-y: hidden;
+    overflow-x:scroll;
+  }
+}

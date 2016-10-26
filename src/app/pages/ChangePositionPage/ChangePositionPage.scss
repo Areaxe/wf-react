@@ -1,0 +1,94 @@
+@import '../../style/theme';
+
+.changePosition-page{
+  width:100%;
+  background-color: #ffffff;
+  .search-input{
+    width:100%;
+    height:4rem;
+    line-height:4rem;
+    border:solid 1px #e0e0e0;
+  }
+  .changePosition{
+  height:4.9rem;
+  line-height:4.9rem;
+  vertical-align:middle;
+  text-align:center;
+  background:#fff;
+  margin:1rem 0;
+  @include input-border;
+  .icon{
+    display:inline-block;
+    width:1.8rem;
+    height:1.8rem;
+    vertical-align:middle;
+    margin-right:.6rem;
+    img{
+      width:100%;
+      height:100%;
+      float:left;
+    }
+  }
+  .get-position{
+  vertical-align:middle;
+    display:inline-block;
+    font-size:16px;
+    color:#222;
+  }
+}
+.spin-text{
+  top: 0;
+  text-align: center;
+  background: rgba(255,255,255,0.8);
+  color: #666;
+  position:absolute;
+  width:100vw;
+  height:100vh;
+  line-height:100vh;
+  user-select:none;
+  -webkit-user-select:none;
+}
+
+.search-container{
+    background:#f4f5f7;
+    position:relative;
+    height:3.4rem;
+    line-height:3.4rem;
+    vertical-align:middle;
+    margin:1.1rem .8rem 0 .8rem;
+    border-radius:2px;
+    display:inline-block;
+    width:calc(100% - 1.6rem);
+    background-image:url('../../images/address_28_gray.png');
+      background-repeat:no-repeat;
+      background-position:center left .8rem;
+      background-size:1.4rem;
+      text-indent: 3.2rem;
+    .search-input{
+      outline:none;
+      background:none;
+      border:none;
+      height:3.4rem;
+      line-height:3.4rem;
+      width:calc(100% - 7.2rem);
+      margin:0 auto;
+      vertical-align:middle;
+    }
+    .delBtn{
+      position:absolute;
+      display:inline-block;
+      width:2rem;
+      height:2rem;
+      background:url('../../images/delete_40.png') no-repeat center;
+      background-size:100%;
+      right:.8rem;
+      top:.7rem;
+      vertical-align:middle;
+    }
+  }
+}
+.amap-sug-result{
+  #amap-sug0{
+    font-size:14px!important;
+  }
+}

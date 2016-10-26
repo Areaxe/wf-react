@@ -1,0 +1,18 @@
+.goods-list{
+	>ul{
+		display:flex;
+		flex-wrap: wrap;
+	}
+	.goods-item{
+		width:50%;
+		display:inline-block;
+		vertical-align:top;
+		border:solid 1px #e0e0e0;
+		&:nth-child(even){
+			margin-left:-1px;
+		}
+		&:nth-child(n+2){
+			margin-top:-1px;
+		}
+	}
+}

@@ -1,0 +1,66 @@
+@import '../../style/theme';
+.goods-list{
+	background:$background-color;
+	.goods-list-ul{
+		>ul{
+		display:flex;
+		flex-wrap: wrap;
+		}
+	}
+	.business-introduce{
+		font-size:16px;
+		padding:1rem;
+	}
+	.goodsItem{
+		background:#fff;
+		width:calc(50% - 1px);
+		display:inline-block;
+		vertical-align:top;
+		border-right:solid 1px #eee;
+		border-bottom:solid 1px #eee;
+		box-sizing: content-box;
+		border-left:none;
+		&:nth-child(even){
+			border-right:none;
+		}
+	}
+	.business-info{
+		margin-bottom:1rem;
+	}
+}
+.goods-tab{
+	background:#fff;
+	.ant-tabs-bar{
+		margin:0;
+	}
+	.ant-tabs-ink-bar{
+		background-color:$theme-color;
+		width:7.4rem !important;
+		margin-left:calc((50% - 7.4rem)/2);
+	}
+	
+	.ant-tabs-nav{
+		width:100%;
+		.ant-tabs-tab {
+			width:50%;
+			height:4.5rem;
+			padding:0;
+			font-size:16px;
+			margin:0px;
+			.ant-tabs-tab-inner{
+				padding:0;
+				color:#b6bcc7;
+				width:100%;
+				height:100%;
+				line-height:4.5rem;
+				text-align:center;
+			}
+		}
+		.ant-tabs-tab-active{
+			.ant-tabs-tab-inner{
+				color:$theme-color;
+			}
+		}
+	}
+	
+}

@@ -1,0 +1,114 @@
+@charset "UTF-8";
+.whome_info_container{
+  width: 100%;
+  height: auto;
+  padding-left: 1.2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
+  border-bottom: solid 1px #eee;
+}
+.whome_info_table{
+  width: calc(100% - 1.2rem);
+  table-layout: fixed;
+}
+.whome_info_picTd{
+  width: 7.6rem;
+  padding-right: 1.2rem;
+  border-radius: 1rem;
+  vertical-align: top;
+  padding-top: 0.45rem;
+}
+.whome_info_pic{
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 1rem;
+}
+.whome_info_shopName{
+  font-size: 18px;
+  color: #222222;
+  font-weight: 500;
+  height: 2.7rem;
+  line-height: 2.7rem;
+}
+.whome_info_iconTd{
+  width: 1.8rem;
+  text-align: right;
+  vertical-align: middle;
+}
+.whome_info_icon{
+  width: 1.4rem;
+  vertical-align: middle;
+  margin-top: -3px;
+  margin-right: 0.5rem;
+}
+.whome_info_phone{
+  font-size: 14px;
+  color: #82878f;
+  height: 2.3rem;
+  line-height: 2.3rem;
+}
+.whome_info_address{
+  vertical-align:middle;
+  line-height:16px;
+  font-size: 13px;
+  color: #82878f;
+  height: 2.2rem;
+}
+.whome_info_numAddress{
+  font-size: 13px;
+  color: #3e3e3e;
+  margin-left: 0.8rem;
+}
+.whome_info_proNum{
+  font-size: 13px !important;
+}
+.whome_info_none{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.whome_info_starTd{
+  width: 95px;
+  text-align: right;
+  .ant-rate-star{
+    margin-right:3px;
+  }
+  .ant-rate-star-content:before, .ant-rate-star:before{
+    font-size:14px;
+  }
+}
+.whome_info_tabTitle{
+  width: 100%;
+  height: 4.4rem;
+  table-layout: fixed;
+}
+.whome_info_tabTitle td{
+  height: 4.4rem;
+  line-height: 4.4rem;
+}
+.whome_info_picTd2{
+  width: 6.1rem;
+  border-radius: 0.6rem;
+}
+.whome_info_pic2{
+  width: 4.5rem;
+  height: 4.5rem;
+  margin-left: 0.4rem;
+  border-radius: 0.6rem;;
+}
+.whome_info_shopName2{
+  height: 6.8rem;
+  line-height: 6.8rem;
+  font-size: 16px;
+  color: #5ec1fa;
+}
+.whome_info_iconTd2{
+  width: 3rem;
+  height: 6.8rem;
+  line-height: 6.8rem;
+}
+.whome_info_icon2{
+  width: 1.4rem;
+  height: 1.4rem;
+}

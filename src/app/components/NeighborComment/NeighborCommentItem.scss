@@ -1,0 +1,23 @@
+@import '../../style/theme';
+.comment-item{
+  padding:1.1rem 1.6rem;
+  border-bottom:solid 1px #eee;
+  background:#fff;
+  .nickname{
+    color:$theme-color;
+    font-size:16px;
+    display:inline-block;
+    font-weight: 500;
+  }
+  .comment-time{
+    float:right;
+    font-size:12px;
+    color:#b6bcc7;
+  }
+  .comment-content{
+    padding:.169rem 0;
+    font-size:16px;
+    line-height:22px;
+    color:#3e3e3e;
+  }
+}

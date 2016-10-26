@@ -1,0 +1,17 @@
+@charset "UTF-8";
+.Logo{
+  margin:0 auto;
+  background:#fff;
+  text-align:center;
+  height:4.5rem;
+  .Logo_img{
+      height: 100%;
+      width:auto;
+      margin: 0 auto;
+      display: inline-block;
+  }
+}
+
+.Logo_img{
+  width:100%;
+}

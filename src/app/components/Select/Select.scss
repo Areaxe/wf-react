@@ -1,0 +1,44 @@
+@import '../../style/theme';
+.select-card{
+    border-bottom:solid 1px #eee;
+    .btn-group,.dropdown{
+    width:100%;
+    }
+    ul{
+        border:none;
+        padding:0;
+    }
+    #bg-nested-dropdown{
+        font-size:16px;
+        padding:0;
+        border:none;
+        color:#b6bcc7;
+        background:#fff;
+        width:100%;
+        border-radius:0px;
+        height:4.5rem;
+    }
+.btn-group.open {
+        .dropdown-toggle{
+            color:$theme-color!important;
+            box-shadow: 0 0 0#fff !important;
+            background:#FFEEF3!important;
+        }
+    }
+    .dropdown-menu{
+        width:100%;
+        li ,a{
+            display:block;
+            height:4.4rem;
+            line-height:4.4rem;
+            font-size:16px;
+            color:$theme-color;
+            width:100%;
+            text-align:center;
+            padding:0px;
+        }
+        li{
+            border-bottom:solid 1px #dbdbdb;
+        }
+    }
+}

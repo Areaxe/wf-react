@@ -1,0 +1,40 @@
+@import '../../style/theme';
+.menu-select{
+  width:100%;
+  .ant-select{
+    width:100%;
+    height:4.5rem;
+  }
+  .ant-select-selection{
+    text-align:center;
+    font-size: 16px;
+    color:#b6bcc7;
+    height:4.5rem;
+    line-height:4.5rem;
+    border-radius:0px;
+    border:none;
+    border-bottom:solid 1px #eee;
+  }
+  .ant-select-selection__rendered{
+    height:4.5rem!important;
+  }
+  .ant-select-selection-selected-value{
+    width:100%;
+    text-align:center;
+    height:4.5rem;
+    line-height:4.5rem;
+  }
+  .ant-select-focused,.ant-select-open{
+    color:$theme-color!important;
+    background:#FFEEF3!important;
+  }
+  .ant-select-dropdown{
+    line-height:4.4rem;
+    font-size:16px;
+    text-align:center;
+  }
+   .ant-select-selection__placeholder{
+    color:#b6bcc7;  //.ant-select-search__field__placeholder,
+  }
+}
+

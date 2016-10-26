@@ -1,0 +1,114 @@
+@import '../../style/theme';
+.index-midButton{
+  width:calc(100% - 4rem);
+  margin:4rem auto 0 auto;
+}
+@import '../../style/common';
+.changePhone-page{
+  .login-input{
+  width:100%;
+
+  .security-code{
+    display:inline-block;
+   
+    margin:1.2rem 1.2rem 0 0;
+    button{
+      width:9rem;
+      height:3.6rem;
+      font-size:16px;
+      width:100%;
+      height:100%;
+      border:none;
+      background:$primary-color;
+      color:#fff;
+    }
+  }
+  .security-code button:disabled{
+    color:#ffffff !important;
+    background:#d8d8d8 !important;
+  }
+  .disabledBtn{
+    color:#fff;
+    width:9rem;
+    height:3.6rem;
+    font-size:16px;
+    margin:1.2rem 1.2rem 0 0;
+    background:#d8d8d8;
+    vertical-align:top;
+    border-radius:2px;
+  }
+
+  .input-div{
+    background:#fff;
+    width:100%;
+    height:6rem !important;
+    border-bottom:solid 1px #e0e0e0;
+  }
+  
+  .telphone-icon,.check-icon{
+    display:inline-block;
+    width:4rem;
+    height:4rem;
+    vertical-align: middle;
+    line-height:4rem;
+    margin:1rem 1.2rem;
+  }
+  .telphone-icon{
+    background: url('../../images/phone.png') center no-repeat;
+    background-size:100%;
+  }
+  .check-icon{
+    background: url('../../images/checkCode.png') center no-repeat;
+    background-size:100%;
+  }
+  #telphone,#check-code{
+    position:relative;
+    color:#a3a9b3;
+    font-size:16px;
+    width:calc(100% - 6.4rem);
+    height:5.9rem;
+    display:inline-block;
+    input{
+      width:100%;
+      height:100%;
+      border:none;
+    }
+    .delBtn{
+      position:absolute;
+      display:inline-block;
+      width:3.6rem;
+      height:3.6rem;
+      right:.0rem;
+      top:1.2rem;
+      vertical-align:middle;
+      background:url('../../images/delete.png') no-repeat center;
+      background-size:100%;
+    }
+  }
+  input:focus{
+    border:none;
+    outline:none;
+  }
+  .login-input >div{
+    border-bottom:solid 1px #e0e0e0;
+  }
+  #telphone{
+    width:calc(100% - 16.6rem);
+  }
+}
+ .change-button{
+    width:100%;
+    height:3rem;
+    padding:0 1.6rem;
+    margin-top:4rem;
+    button{
+      width:100%;
+      background:$primary-color;
+      font-size:18px;
+      height:4rem;
+      display:block;
+      border-radius:2px;
+      color:#fff;
+    }
+  }
+}

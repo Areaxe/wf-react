@@ -1,0 +1,83 @@
+@charset "UTF-8";
+.whs_list_container{
+  margin-top: 1rem;
+}
+.whs_list_ul{
+  width: 100%;
+  height: 4.4rem;
+  background-color: #ffffff;
+  border-bottom: solid 1px #eee;
+}
+li{
+  list-style: none;
+}
+.whs_list_new{
+  height: 4.4rem;
+  line-height: 4.4rem;
+  font-size: 16px;
+  color: #a3a9b3;
+  float: left;
+  margin-left: 1.2rem;
+}
+.whs_list_icon{
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-right: 0.3rem;
+  vertical-align:middle;
+  margin-top:-3px;
+}
+.whs_list_more{
+  height: 4.4rem;
+  line-height: 4.5rem;
+  float: right;
+  margin-right: 1.2rem;
+  font-size: 14px;
+}
+.whs_list_right{
+  width: 1.4rem;
+  height: 1.4rem;
+}
+.whs_list_ul2{
+  width: 100%;
+  height: 4.9rem;
+  background-color: #ffffff;
+  border-bottom: solid 1px #eee;
+  clear: both;
+}
+.whs_list_serName{
+  width: calc(100% - 5.4rem);
+  height: 4.9rem;
+  line-height: 4.9rem;
+  font-size: 17px;
+  color: #222222;
+  float: left;
+  margin-left: 2.8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.whs_list_iconRight{
+  height: 4.9rem;
+  line-height: 4.9rem;
+  float: right;
+  margin-right: 1.2rem;
+  .whs_list_right{
+    color:#baccdb;
+  }
+}
+.whs_list_add{
+  margin-top: 1.75rem;
+  vertical-align:baseline !important;
+}
+.whs_noServiceData{
+  width:100%;
+  height:4.5rem;
+  background:#fff;
+  border-top:solid 1px #eee;
+  border-bottom:solid 1px #eee;
+  margin-top:-1px;
+  color:#e0e0e0;
+  text-align:center;
+  font-size:14px;
+  line-height:4.5rem;
+}

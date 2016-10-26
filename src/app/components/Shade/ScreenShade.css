@@ -1,0 +1,41 @@
+.screenShade {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100vw;
+  min-height: 100vh;
+  line-height: 100vh;
+  vertical-align: middle;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  top: 0;
+  left: 0;
+  z-index: 100; }
+  .screenShade .content-center, .screenShade content-bottom, .screenShade content-top {
+    vertical-align: middle;
+    margin: 0 auto;
+    text-align: centet;
+    color: #f0f0f0;
+    z-index: 999; }
+  .screenShade .content-center {
+    line-height: normal;
+    display: inline-block;
+    width: 80%;
+    max-width: 100%;
+    z-index: 999; }
+  .screenShade .content-bottom {
+    width: 100%;
+    position: absolute;
+    bottom: 0; }
+  .screenShade .content-top {
+    background: #fff;
+    width: 100%;
+    top: 0;
+    position: absolute; }
+  .screenShade .screen {
+    width: 0;
+    display: inline-block;
+    vertical-align: middle;
+    height: 100vh; }
+
+/*# sourceMappingURL=ScreenShade.css.map */

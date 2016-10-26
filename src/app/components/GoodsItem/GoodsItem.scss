@@ -1,0 +1,24 @@
+@import '../../style/theme';
+.goods-item{
+	text-align:center;
+	background:#fff;
+	.goods-img{
+		width:calc(100% - 3.2rem);
+		margin:1.6rem auto 0 auto;
+		img{
+			width:100%;
+		}
+	}
+	.goods-name-out{
+		padding:0.8rem 0 1.4rem 0;
+	}
+	.goods-name{
+		text-align:left;
+		font-size:16px;
+		line-height:2.2rem;
+		color:#222;
+		width:calc(100% - 3.2rem);
+		margin:0 auto;
+		@include ellipsis(2);
+	}
+}

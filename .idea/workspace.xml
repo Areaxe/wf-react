@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="87fc87cb-6d4b-419c-9707-4dcf5538286c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/components/Header/Header.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/components/Header/Header.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/pages/ServiceDetail/ServiceDetail.scss" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/images/h.png" afterPath="$PROJECT_DIR$/src/app/images/h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/images/m.png" afterPath="$PROJECT_DIR$/src/app/images/m.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/images/n.png" afterPath="$PROJECT_DIR$/src/app/images/n.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/images/w.png" afterPath="$PROJECT_DIR$/src/app/images/w.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/actions/federation.js" afterPath="$PROJECT_DIR$/src/app/actions/federation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/actions/fetchData.js" afterPath="$PROJECT_DIR$/src/app/actions/fetchData.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/actions/index.js" afterPath="$PROJECT_DIR$/src/app/actions/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/actions/loginaction.js" afterPath="$PROJECT_DIR$/src/app/actions/loginaction.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/actions/newsaction.js" afterPath="$PROJECT_DIR$/src/app/actions/newsaction.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/actions/personal.js" afterPath="$PROJECT_DIR$/src/app/actions/personal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/actions/project.js" afterPath="$PROJECT_DIR$/src/app/actions/project.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/actions/serviceaction.js" afterPath="$PROJECT_DIR$/src/app/actions/serviceaction.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/actions/storeaction.js" afterPath="$PROJECT_DIR$/src/app/actions/storeaction.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.jsx" afterPath="$PROJECT_DIR$/src/app/app.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/AddressInfo/AddressInfo.scss" afterPath="$PROJECT_DIR$/src/app/components/AddressInfo/AddressInfo.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/Button/CustomButton.scss" afterPath="$PROJECT_DIR$/src/app/components/Button/CustomButton.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/CommentItem/CommentItem.js" afterPath="$PROJECT_DIR$/src/app/components/CommentItem/CommentItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/CommentItem/CommentItem.scss" afterPath="$PROJECT_DIR$/src/app/components/CommentItem/CommentItem.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/DetailHead/DetailHead.scss" afterPath="$PROJECT_DIR$/src/app/components/DetailHead/DetailHead.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/Gallery/Gallery.js" afterPath="$PROJECT_DIR$/src/app/components/Gallery/Gallery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/Gallery/Gallery.scss" afterPath="$PROJECT_DIR$/src/app/components/Gallery/Gallery.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/GoodsItem/GoodsItem.js" afterPath="$PROJECT_DIR$/src/app/components/GoodsItem/GoodsItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/GoodsItem/GoodsItem.scss" afterPath="$PROJECT_DIR$/src/app/components/GoodsItem/GoodsItem.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/ImageGallery/ImageGallery.js" afterPath="$PROJECT_DIR$/src/app/components/ImageGallery/ImageGallery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/ImageGallery/image-gallery.scss" afterPath="$PROJECT_DIR$/src/app/components/ImageGallery/image-gallery.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/Menu/Menu.js" afterPath="$PROJECT_DIR$/src/app/components/Menu/Menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/Menu/Menu.scss" afterPath="$PROJECT_DIR$/src/app/components/Menu/Menu.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/NeighborComment/NeighborCommentItem.js" afterPath="$PROJECT_DIR$/src/app/components/NeighborComment/NeighborCommentItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/NeighborComment/NeighborCommentItem.scss" afterPath="$PROJECT_DIR$/src/app/components/NeighborComment/NeighborCommentItem.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/NeighborComment/NeighborCommentList.js" afterPath="$PROJECT_DIR$/src/app/components/NeighborComment/NeighborCommentList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/NewsItem/NewsItem.scss" afterPath="$PROJECT_DIR$/src/app/components/NewsItem/NewsItem.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/NewsList/NewsList.js" afterPath="$PROJECT_DIR$/src/app/components/NewsList/NewsList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/PersonalInfo/PersonalInfo.scss" afterPath="$PROJECT_DIR$/src/app/components/PersonalInfo/PersonalInfo.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/SelectCard/SelectCard.js" afterPath="$PROJECT_DIR$/src/app/components/SelectCard/SelectCard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/SelectCard/selectCard.scss" afterPath="$PROJECT_DIR$/src/app/components/SelectCard/selectCard.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/ServerHead/ServerHead.js" afterPath="$PROJECT_DIR$/src/app/components/ServerHead/ServerHead.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/ServerHead/ServerHead.scss" afterPath="$PROJECT_DIR$/src/app/components/ServerHead/ServerHead.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/ServiceList/ServiceList.js" afterPath="$PROJECT_DIR$/src/app/components/ServiceList/ServiceList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/Shade/Loading.js" afterPath="$PROJECT_DIR$/src/app/components/Shade/Loading.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/Shade/Loading.scss" afterPath="$PROJECT_DIR$/src/app/components/Shade/Loading.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/TopMenu/TopMenu.js" afterPath="$PROJECT_DIR$/src/app/components/TopMenu/TopMenu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/TopMenu/TopMenu.scss" afterPath="$PROJECT_DIR$/src/app/components/TopMenu/TopMenu.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/UserIntegral/UserIntegral.js" afterPath="$PROJECT_DIR$/src/app/components/UserIntegral/UserIntegral.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/UserIntegral/UserIntegral.scss" afterPath="$PROJECT_DIR$/src/app/components/UserIntegral/UserIntegral.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/WHSList/WHSList.scss" afterPath="$PROJECT_DIR$/src/app/components/WHSList/WHSList.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/WHomeInfo/WHomeInfo.scss" afterPath="$PROJECT_DIR$/src/app/components/WHomeInfo/WHomeInfo.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/logo/logo.scss" afterPath="$PROJECT_DIR$/src/app/components/logo/logo.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/AboutMePage/AboutMePage.js" afterPath="$PROJECT_DIR$/src/app/pages/AboutMePage/AboutMePage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/AgreementPage/AgreementPage.js" afterPath="$PROJECT_DIR$/src/app/pages/AgreementPage/AgreementPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/ChangePositionPage/ChangePositionPage.js" afterPath="$PROJECT_DIR$/src/app/pages/ChangePositionPage/ChangePositionPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/ChangePositionPage/ChangePositionPage.scss" afterPath="$PROJECT_DIR$/src/app/pages/ChangePositionPage/ChangePositionPage.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/CommentAbout/CommentAbout.js" afterPath="$PROJECT_DIR$/src/app/pages/CommentAbout/CommentAbout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/CommentAbout/CommentAbout.scss" afterPath="$PROJECT_DIR$/src/app/pages/CommentAbout/CommentAbout.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/GoodsDetailPage/GoodsDetailPage.js" afterPath="$PROJECT_DIR$/src/app/pages/GoodsDetailPage/GoodsDetailPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/GoodsDetailPage/GoodsDetailPage.scss" afterPath="$PROJECT_DIR$/src/app/pages/GoodsDetailPage/GoodsDetailPage.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/GoodsListPage/GoodsListPage.js" afterPath="$PROJECT_DIR$/src/app/pages/GoodsListPage/GoodsListPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/GoodsListPage/GoodsListPage.scss" afterPath="$PROJECT_DIR$/src/app/pages/GoodsListPage/GoodsListPage.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/Home/App.js" afterPath="$PROJECT_DIR$/src/app/pages/Home/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/Home/App.scss" afterPath="$PROJECT_DIR$/src/app/pages/Home/App.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/MindBox/MindBox.js" afterPath="$PROJECT_DIR$/src/app/pages/MindBox/MindBox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/NeighborCommentPage/NeighborCommentPage.js" afterPath="$PROJECT_DIR$/src/app/pages/NeighborCommentPage/NeighborCommentPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/News/News.js" afterPath="$PROJECT_DIR$/src/app/pages/News/News.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/NewsDetail/NewsDetail.js" afterPath="$PROJECT_DIR$/src/app/pages/NewsDetail/NewsDetail.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/NewsDetail/newsDetail.scss" afterPath="$PROJECT_DIR$/src/app/pages/NewsDetail/newsDetail.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/Service/Service.js" afterPath="$PROJECT_DIR$/src/app/pages/Service/Service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/ServiceAbout/ServiceAbout.js" afterPath="$PROJECT_DIR$/src/app/pages/ServiceAbout/ServiceAbout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/ServiceAbout/ServiceAbout.scss" afterPath="$PROJECT_DIR$/src/app/pages/ServiceAbout/ServiceAbout.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/ServiceDetail/NewServiceDetail.js" afterPath="$PROJECT_DIR$/src/app/pages/ServiceDetail/NewServiceDetail.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/ServiceDetail/NewServiceDetail.scss" afterPath="$PROJECT_DIR$/src/app/pages/ServiceDetail/NewServiceDetail.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/ServiceDetail/OldServiceDetail.js" afterPath="$PROJECT_DIR$/src/app/pages/ServiceDetail/OldServiceDetail.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/ServiceDetail/OldServiceDetail.scss" afterPath="$PROJECT_DIR$/src/app/pages/ServiceDetail/OldServiceDetail.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/StoreList/StoreList.js" afterPath="$PROJECT_DIR$/src/app/pages/StoreList/StoreList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/SystemInfoPage/SystemInfoPage.js" afterPath="$PROJECT_DIR$/src/app/pages/SystemInfoPage/SystemInfoPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/WHDetail/WHDetail.js" afterPath="$PROJECT_DIR$/src/app/pages/WHDetail/WHDetail.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/WHDetail/WHDetail.scss" afterPath="$PROJECT_DIR$/src/app/pages/WHDetail/WHDetail.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/WHome/WHome.js" afterPath="$PROJECT_DIR$/src/app/pages/WHome/WHome.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/WHome/WHome.scss" afterPath="$PROJECT_DIR$/src/app/pages/WHome/WHome.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/WhomeMap/WhomeMap.js" afterPath="$PROJECT_DIR$/src/app/pages/WhomeMap/WhomeMap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/WhomeMap/WhomeMap.scss" afterPath="$PROJECT_DIR$/src/app/pages/WhomeMap/WhomeMap.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/reducers/index.js" afterPath="$PROJECT_DIR$/src/app/reducers/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/reducers/login.js" afterPath="$PROJECT_DIR$/src/app/reducers/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/reducers/news.js" afterPath="$PROJECT_DIR$/src/app/reducers/news.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/reducers/stores.js" afterPath="$PROJECT_DIR$/src/app/reducers/stores.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/style/antd.min.css" afterPath="$PROJECT_DIR$/src/app/style/antd.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/style/common.scss" afterPath="$PROJECT_DIR$/src/app/style/common.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/style/theme.scss" afterPath="$PROJECT_DIR$/src/app/style/theme.scss" />
+    </list>
+    <ignored path="wf-react.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="wf-react" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="NewServiceDetail.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/pages/ServiceDetail/NewServiceDetail.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.19786096">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Loading.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/components/Shade/Loading.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Loading.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/components/Shade/Loading.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.25">
+              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/app/pages/MindBox/MindBox.js" />
+        <option value="$PROJECT_DIR$/src/www/test2.html" />
+        <option value="$PROJECT_DIR$/src/app/components/TopMenu/TopMenu.js" />
+        <option value="$PROJECT_DIR$/src/app/components/SelectCard/selectCard.scss" />
+        <option value="$PROJECT_DIR$/src/app/style/antd.min.css" />
+        <option value="$PROJECT_DIR$/src/app/actions/newsaction.js" />
+        <option value="$PROJECT_DIR$/src/app/reducers/news.js" />
+        <option value="$PROJECT_DIR$/src/www/menus.css" />
+        <option value="$PROJECT_DIR$/src/app/components/SelectCard/SelectCard.js" />
+        <option value="$USER_HOME$/Desktop/PromptDialog.js" />
+        <option value="$PROJECT_DIR$/src/app/components/CenterContents/PromptDialog.js" />
+        <option value="$PROJECT_DIR$/src/app/actions/index.js" />
+        <option value="$USER_HOME$/Desktop/personal.js" />
+        <option value="$PROJECT_DIR$/src/app/reducers/personal.js" />
+        <option value="$PROJECT_DIR$/src/www/index.html" />
+        <option value="$PROJECT_DIR$/src/app/components/PersonalInfo/PersonalInfo.js" />
+        <option value="$PROJECT_DIR$/src/app/pages/ChangePositionPage/ChangePositionPage.scss" />
+        <option value="$PROJECT_DIR$/src/app/components/ServerHead/ServerHead.js" />
+        <option value="$PROJECT_DIR$/src/app/pages/ServiceDetail/OldServiceDetail.js" />
+        <option value="$PROJECT_DIR$/src/app/pages/WHDetail/WHDetail.js" />
+        <option value="$PROJECT_DIR$/src/app/pages/ServiceAbout/ServiceAbout.js" />
+        <option value="$PROJECT_DIR$/src/app/actions/notificationaction.js" />
+        <option value="$PROJECT_DIR$/src/app/pages/WhomeService/WhomeService.js" />
+        <option value="$PROJECT_DIR$/src/app/pages/SystemInfoPage/SystemInfoPage.js" />
+        <option value="$PROJECT_DIR$/src/app/pages/WhomeMap/WhomeMap.js" />
+        <option value="$PROJECT_DIR$/src/app/actions/serviceaction.js" />
+        <option value="$PROJECT_DIR$/src/app/pages/ChangePhonePage/ChangePhonePage.js" />
+        <option value="$PROJECT_DIR$/src/app/actions/loginaction.js" />
+        <option value="$PROJECT_DIR$/src/app/reducers/login.js" />
+        <option value="$PROJECT_DIR$/src/app/app.jsx" />
+        <option value="$PROJECT_DIR$/src/app/pages/LoginPage/LoginPage.js" />
+        <option value="$PROJECT_DIR$/src/app/pages/ServiceDetail/NewServiceDetail.scss" />
+        <option value="$PROJECT_DIR$/src/app/pages/NewsDetail/newsDetail.scss" />
+        <option value="$PROJECT_DIR$/src/app/components/NewsItem/NewsItem.js" />
+        <option value="$PROJECT_DIR$/src/app/pages/NewsDetail/NewsDetail.js" />
+        <option value="$PROJECT_DIR$/src/app/components/Main.jsx" />
+        <option value="$PROJECT_DIR$/src/app/pages/Home/App.js" />
+        <option value="$PROJECT_DIR$/src/app/reducers/service.js" />
+        <option value="$PROJECT_DIR$/src/app/style/main.scss" />
+        <option value="$PROJECT_DIR$/src/app/pages/News/News.js" />
+        <option value="$PROJECT_DIR$/src/app/components/AboutMe/AboutMe.js" />
+        <option value="$USER_HOME$/Desktop/project.js" />
+        <option value="$PROJECT_DIR$/src/app/actions/fetchData.js" />
+        <option value="$PROJECT_DIR$/src/app/actions/personal.js" />
+        <option value="$PROJECT_DIR$/src/app/components/Menu/Menu.js" />
+        <option value="$PROJECT_DIR$/src/app/pages/AboutMePage/AboutMePage.js" />
+        <option value="$PROJECT_DIR$/src/app/components/Shade/Loading.js" />
+        <option value="$PROJECT_DIR$/src/app/actions/project.js" />
+        <option value="$PROJECT_DIR$/src/app/pages/WHome/WHome.js" />
+        <option value="$PROJECT_DIR$/src/app/components/Shade/Loading.scss" />
+        <option value="$PROJECT_DIR$/src/app/pages/ServiceDetail/NewServiceDetail.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1911" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1098" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wf-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wf-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wf-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wf-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wf-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wf-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wf-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wf-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wf-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wf-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wf-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WHome" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wf-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wf-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ServiceDetail" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wf-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wf-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wf-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wf-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wf-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wf-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shade" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\react\wf-react\src\app\style" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87fc87cb-6d4b-419c-9707-4dcf5538286c" name="Default" comment="" />
+      <created>1472102082018</created>
+      <option name="number" value="Default" />
+      <updated>1472102082018</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1911" y="-9" width="1938" height="1098" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2171875" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988626" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/app/components/PersonalInfo/PersonalInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69518715">
+          <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/ChangePositionPage/ChangePositionPage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.115207374">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/WHDetail/WHDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11764706">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/CenterContents/PromptDialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13368984">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/WhomeService/WhomeService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32085562">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/SystemInfoList/SystemInfoList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38609627">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/WhomeMap/WhomeMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24064171">
+          <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/reducers/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0695187">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/NewServiceDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="151" column="18" selection-start-line="151" selection-start-column="18" selection-end-line="151" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/ServiceDetail/OldServiceDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34759358">
+          <caret line="88" column="22" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/LoginPage/LoginPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27914438">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/actions/loginaction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14438502">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/SystemInfoPage/SystemInfoPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/actions/notificationaction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="68" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/ServiceDetail/NewServiceDetail.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/NewsDetail/newsDetail.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3880596">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/ServiceAbout/ServiceAbout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.080213904">
+          <caret line="81" column="27" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/NewsList/NewsList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/NewsItem/NewsItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/Main.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5882353">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/reducers/federation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7058824">
+          <caret line="64" column="43" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/ServiceList/ServiceList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42780748">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/reducers/service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22459893">
+          <caret line="180" column="18" selection-start-line="180" selection-start-column="18" selection-end-line="180" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/actions/serviceaction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.026737968">
+          <caret line="161" column="37" selection-start-line="161" selection-start-column="16" selection-end-line="161" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/CommentAbout/CommentAbout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.026737968">
+          <caret line="60" column="39" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.057603687">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2016129">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/Home/App.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.028801844">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14400922">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/Service/Service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="59" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/NewsDetail/NewsDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.13368984">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/ServerHead/ServerHead.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08640553">
+          <caret line="115" column="35" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/ServerHead/ServerHead.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.026737968">
+          <caret line="102" column="64" selection-start-line="102" selection-start-column="64" selection-end-line="102" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/News/News.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56149733">
+          <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/ChangePhonePage/ChangePhonePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21390374">
+          <caret line="182" column="12" selection-start-line="182" selection-start-column="12" selection-end-line="182" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/ChangePhonePage/ChangePhonePage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14400922">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10695187">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11764706">
+          <caret line="249" column="21" selection-start-line="249" selection-start-column="21" selection-end-line="249" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/actions/fetchData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18716578">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/actions/personal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/Menu/Menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3315508">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/AboutMe/AboutMe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.026737968">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/AboutMePage/AboutMePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62566847">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/Home/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26737967">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/WHome/WHome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13368984">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/actions/federation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.026737968">
+          <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/actions/project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34759358">
+          <caret line="64" column="70" selection-start-line="64" selection-start-column="70" selection-end-line="64" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/Shade/Loading.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/Shade/Loading.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.25">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/pages/ServiceDetail/NewServiceDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19786096">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

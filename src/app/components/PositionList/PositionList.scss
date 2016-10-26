@@ -1,0 +1,23 @@
+@import '../../style/theme';
+
+.position-item{
+  background:#fff;
+  @include input-border;
+  margin-top:-1px;
+  height:4.9rem;
+  line-height:4.9rem;
+  vertical-align:middle;
+  .icon{
+    width:1.6rem;
+    height:1.6rem;
+    vertical-align:middle;
+    display:inline-block;
+    margin:0 1.2rem 0 1rem;
+  }
+  .position-content{
+    display:inline-block;
+    vertical-align:middle;
+    font-size:18px;
+    color:#3e3e3e;
+  }
+}

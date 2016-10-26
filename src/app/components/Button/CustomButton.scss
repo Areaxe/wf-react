@@ -1,0 +1,46 @@
+@import '../../style/theme';
+.custom-button{
+  width:100%;
+    button{
+    width:100%;
+    background:$primary-color;
+    font-size:18px;
+    height:4rem;
+    display:block;
+    border-radius:2px;
+    color:#fff;
+   }
+   button:disabled{
+    background:#d8d8d8;
+   }
+  button.primary{
+    background: $primary-color;
+    color:#fff;
+  }
+  button.green{
+    background: #40c218;
+    color: #fff;
+  }
+  button.danger{
+    background:#f00;
+    color:#fff;
+  }
+  button.warming{
+    background:#f19149;
+    color:#fff;
+  }
+  button.light-blue{
+    background:#fff;
+    color:$primary-color;
+    border:solid 1px $primary-color;
+  }
+  button.light-theme{
+    background:#fff;
+    color:$theme-color;
+    border:solid 1px $theme-color;
+  }
+  button:disabled{
+    color:#fff;
+    background:#d3d7dd;
+  }
+}

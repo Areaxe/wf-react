@@ -1,0 +1,20 @@
+@charset "UTF-8";
+.ActivityItem{
+  width:41%;
+  float: left;
+  margin-left: 6%;
+  margin-top: 5%;
+}
+.custom-image{
+  border-radius: 5%;
+}
+.custom-image img {
+  display: block;
+  border-radius: 5%;
+}
+.custom-card {
+  padding: 10px 16px;
+}
+.custom-card p {
+  color: #999;
+}

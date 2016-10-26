@@ -1,0 +1,32 @@
+@import '../../style/theme';
+.infoList{
+	margin-top:1rem;
+	padding-bottom: 5rem;
+	.single-info{
+		@include item-link;
+		line-height:6.8rem;
+		.info-time{
+			white-space:nowrap;
+			padding:0 1.6rem;
+			display:inline-block;
+			width:auto;
+			color:#b6bcc7;
+			vertical-align:middle;
+		}
+	.info-content{
+		line-height:6.8rem;
+		color:#222;
+		vertical-align:middle;
+		font-size:17px;
+		display:inline-block;
+		width:auto;
+		max-width:calc(100% - 9.4rem);
+		p{
+			@include ellipsis(2);
+			text-align:left;
+			width:100%;
+			line-height:normal;
+		}
+	}
+}
+}

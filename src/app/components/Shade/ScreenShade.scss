@@ -1,0 +1,49 @@
+.screenShade{
+		position:fixed;
+		background:rgba(0,0,0,0.8);
+		width:100vw;
+		height:120vh;
+		min-height:100vh;
+		line-height:100vh;
+		vertical-align:middle;
+		width:100vw;
+		height:100vh;
+		text-align:center;
+		bottom:0;
+		left:0;
+		z-index:100;
+
+		.content-center,content-bottom,content-top{
+			vertical-align:middle;
+			margin:0 auto;
+			text-align:center;
+			color:#f0f0f0;
+			z-index:999;
+
+		}
+		.content-center{
+			width:100%;
+			text-align:center;
+			line-height:normal;
+			display:inline-block;
+			max-width:100%;
+			z-index:999;
+		}
+		.content-bottom{
+			width:100%;
+			position:absolute;
+			bottom:0;
+		}
+		.content-top{
+			width:100%;
+			top:0;
+			position:absolute;
+		}
+		.screen{
+			width:0;
+			display:inline-block;
+			vertical-align:middle;
+			height:100vh;
+		}
+
+}
